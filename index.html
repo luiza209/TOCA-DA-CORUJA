@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="node_molules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_molules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <title>Quintada Online :: Página Principal</title>
+</head>
+
+<body>
+  <div class="d=flex flex-colum wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3">...
+      <div class="container">
+        <a class="navbar-brand" href="/"><b>Quintanda Online</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/index.html">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/contato.html">Contato</a>
+            </li>
+          </ul>
+          <div class="align-self-end">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="/cadastro.html" class="nav-link text-white">Quero Me Cadrastrar</a>
+              </li>
+              <li class="nav-item">
+                <a href="/login.html" class="nav-link text-white">Entrar</a>
+              </li>
+              <li class="nav-item">
+                <span class="badge rounded-pill bg-light text-dager position-absolute ms-4 mt-0"
+                  title="5 produto(s) no carrinho"><small>5</small></span>
+                <a href="/carrinho.html" class="nav-link text-white">
+                  <i class="bi-cart" style="font-size: 24px; line-height: 24px;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <main class="flex-fill">
+      <div class="container">
+      </div>
+
+    </main>
+
+    <footer class="border-top text-muted bg-light">...
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12 col-md-4 text-center">
+            &copy; 2020 - Quintada Online Ltda ME<br>
+            Rua Virtual Inexistente, 386, Recife/PE <br>
+            CNPJ 99.999.999/0001-99
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <a href="/privacidade.html" class="text-decoration-none text-dark">
+              Privacidade
+            </a><br>
+            <a href="/termos.html" class="text-decoration-none text-dark">
+              Termos de uso
+            </a><br>
+            <a href="/quemsomos.html" class="text-decoration-none text-dark">
+              Quem Somos
+            </a><br>
+            <a href="/trocas.html" class="text-decoration-none text-dark">
+              Trocas e Devoluções
+            </a><br>
+            <div class="col-4 col-md-4 text-center">
+              <a href="/contatos.html" class="text-decoration-none text-dark">
+                Contato pelo Site
+                <a><br>
+                  E-mail: <a href="anna:email@dominio.com" class="text-decoration-none text-dark">
+                    email@dominio.com
+                    <a><br>
+                      Telefone: <a href="phone:81 99990-0899" class="text-decoration-none text-dark" <a><br>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </div>
+  <script src="/node_molules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <script src="https://kit.fontawesome.com/a49a12793f.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estyles.css">
+  <title>Menu Personalizado</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="acess/css/style.css">
+  <link rel="stylesheet" href="estilos/Menu-Personalizado.css">
+  <link rel="stylesheet" href="acess/css/style.css1">
+</head>
+
+<body onresize="mudouTamanho()">
+  <header>
+    <div class="container">
+      <div class="logo"><img src="acess/img/logoTocaCoruja.jpeg"></div>
+      <div class="menu">
+        <nav>
+          <a href="#">home</a>
+          <a href="#">sobre</a>
+          <a href="#">contatos</a>
+          <a href="#">Preços</a>
+        </nav>
+      </div>
+      <div class="sociais">
+        <button><i class="fa-brands fa-instagram"></i></button>
+        <button><i class="fa-brands fa-youtube"></i></button>
+        <button><i class="fa-brands fa-twitter"></i></button>
+      </div>
+    </div>
+    <h1>Toca da Coruja</h1>
+    <i id="burguer" class="material-icons" onclick="clickMenu2()">menu</i>
+    <menu2 id="itens">
+      <ul>
+        <li><a href="0">Opção 1</a></li>
+        <li><a href="0">Opção 2</a></li>
+        <li><a href="0">Opção 3</a></li>
+        <li><a href="0">Opção 4</a< /li>
+        <li><a href="0">Opção 5</a></li>
+      </ul>
+    </menu2>
+  </header>
+  <main>
+    <article>
+      <h2> Menu Toca da Coruja</h2>
+
+      <h2>Venha com seus amigos, familiares saborear nossas refeições. O Toca da Coruja pizzaria é uma tradicional
+        pizzaria no centro de Recife com mais de 15 anos de serviço.<br><span> Funcionamos de quinta as domingo, a
+          partir das 16hs. Dispomos de um salão para comemorações de aniversário, reuniões, celebrações de final de ano.
+          Classificação 1º no TopScreen em Recife-PE.</span></h2>
+
+      <p>Somos amantes e tutores de 12 corujas (coruja-buraqueira, coruja-listrada, coruja orelhuda, coruja suindara,
+        coruja caburé miudinho).</p>
+
+      <p>Aproveite e venha conhecer as nossas encantadoras corujas.</p>
+    </article>
+  </main>
+  <script>
+
+    function mudouTamanho() {
+      if (window.innerWidth >= 768) {
+        itens.style.display = 'block'
+      } else {
+        itens.estyle.display = 'none'
+      }
+    }
+
+    function clickMenu2() {
+      if (itens.style.display == 'block') {
+        itens.style.display = 'none'
+      } else {
+        itens.style.display = 'block'
+      }
+    }
+  </script>
+</body>
+
+</html>
